@@ -20,27 +20,27 @@ function App() {
               )
             }
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-            style={{ backgroundColor: "red" }}
+            
           >
-            button 1
+            <img src="https://images.pexels.com/photos/18048295/pexels-photo-18048295/free-photo-of-facade-of-a-tall-block-of-flats-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style={{ width:"100px" }} />
           </button>
           <button
             onClick={() =>  setImg(
               "https://images.pexels.com/photos/18173610/pexels-photo-18173610/free-photo-of-woman-with-a-camera-sitting-on-the-floor-covered-with-polaroids.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             )}
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-            style={{ backgroundColor: "green" }}
+            
           >
-            button 2
+            <img src="https://images.pexels.com/photos/18173610/pexels-photo-18173610/free-photo-of-woman-with-a-camera-sitting-on-the-floor-covered-with-polaroids.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style={{ width:"100px" }} />
           </button>
           <button
             onClick={() =>  setImg(
               "https://images.pexels.com/photos/18075209/pexels-photo-18075209/free-photo-of-flower-tattoos-on-woman-face.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             )}
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-            style={{ backgroundColor: "blue" }}
+            
           >
-            button 3
+            <img src="https://images.pexels.com/photos/18075209/pexels-photo-18075209/free-photo-of-flower-tattoos-on-woman-face.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""  style={{ width:"100px" }}/>
           </button>
         </div>
       </div>
@@ -48,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;
