@@ -22,7 +22,7 @@ function App() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "red" }}
           >
-            Red
+            button 1
           </button>
           <button
             onClick={() =>  setImg(
@@ -31,7 +31,7 @@ function App() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "green" }}
           >
-            Green
+            button 2
           </button>
           <button
             onClick={() =>  setImg(
@@ -40,7 +40,7 @@ function App() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "blue" }}
           >
-            Blue
+            button 3
           </button>
         </div>
       </div>
