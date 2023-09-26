@@ -2,14 +2,14 @@ import { useState } from "react";
 
 function App() {
   const [img, setImg] = useState(
-    "https://images.pexels.com/photos/18048295/pexels-photo-18048295/free-photo-of-facade-of-a-tall-block-of-flats-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "https://images.pexels.com/photos/17900125/pexels-photo-17900125/free-photo-of-scenic-view-of-a-seacoast.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   );
 
   console.log(img);
   return (
     <div
       className="w-full h-screen duration-200"
-      style={{ backgroundImage: `url("${img}")` }}
+      style={{ backgroundImage: `url("${img}")`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
     >
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
@@ -19,7 +19,7 @@ function App() {
                 "https://images.pexels.com/photos/18048295/pexels-photo-18048295/free-photo-of-facade-of-a-tall-block-of-flats-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               )
             }
-            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            
           >
             <img
               src="https://images.pexels.com/photos/18048295/pexels-photo-18048295/free-photo-of-facade-of-a-tall-block-of-flats-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
