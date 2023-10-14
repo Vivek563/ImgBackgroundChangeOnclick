@@ -4,6 +4,8 @@
 
 This project is a simple web application built with Vite and React that allows users to change the background of the entire screen by clicking on various image options.
 
+![Digital Fingerprint Screenshot](https://firebasestorage.googleapis.com/v0/b/facedetection-d4d02.appspot.com/o/screencapture-imgbackgroundchangeonclick-vercel-app-2023-10-14-12_06_26.png?alt=media&token=5bb71c1c-5997-4517-a9d3-2f959bd57cc2&_gl=1*1ptv9zz*_ga*MzY4NzQ4NTE4LjE2NzkyODU2NDI.*_ga_CW55HF8NVT*MTY5NzI2NTQwOS43LjEuMTY5NzI2NTQ3OS41Ny4wLjA.)
+
 ## Features
 
 - Change the background image by clicking on different image options.
